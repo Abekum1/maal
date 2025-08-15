@@ -1,12 +1,4 @@
-# predictor.py
-# Higher-accuracy signal generation with structure-based SL/TP, FVG-aware retest, and MACD-first pending entries
-# - Keeps 100% of your original content and APIs; only adds safe, optional improvements
-# - Trigger-first logic (MACD) with soft filters (EMA, ADX, RSI, Volume)
-# - NEW: Pending signal state => wait for retest to support/resistance/FVG before entering
-# - SL anchored to recent swing structure or FVG edge with ATR buffer (whichever is stronger)
-# - TPs as R-multiples; optional BE after TP1; optional ATR trailing
-# - Optional signal cancellation if majority of indicators flip against the position
-# - Confidence threshold is enforced in main.py (not here)
+
 
 import asyncio
 from datetime import datetime, timedelta
